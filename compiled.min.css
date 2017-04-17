@@ -1,0 +1,98 @@
+.main_head {
+    min-height: 660px;
+}
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  .loader  .loader_inner {
+    background-image: url("../img/1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-posirion: center center;
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+.min_color_bg{
+    background-color: #222;
+}
+.foto_style_html{
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    bottom: 0;
+    margin-bottom: -70px;
+    margin-left: -30px;
+    float: left;
+    display: none;
+}
+.foto_style_html_2{
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    top: 0;
+    margin-top: -70px;
+    float: left;
+    display: none;
+}
+.foto_style_html_3{
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    top: 0;
+    right: 0;
+    float: right;
+    display: none;
+}
+.foto_style_html_4{
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -70px;
+    float: right;
+    display: none;
+}
+.now_st{
+   height: 15%; 
+}
+.now_st_2{
+   height: 12%; 
+}
+.foto_style_1{width: 7.4%;height: 15.2%;}
+.foto_style_2{width: 7.45%;height: 15.2%;}   
+.foto_style_3{width: 7.4%;height: 12.5%;} 
+.foto_style_4{width: 7.4%;height: 15.1%;}  
+.foto_style_5{width: 9.65%;height: 23.7%;}
+.foto_style_6{width: 9.65%;height: 24.3%;}
+.foto_style_7{width: 9.65%;height: 24.3%;}
+.foto_style_8{width: 2.7%;height:15%;}
+.foto_style_9{width: 4.45%;height: 21.2%;}
+.foto_style_10{width: 5.4%;height: 15%;} 
+.foto_style_11{width: 5.45%;height: 15%;}
+.foto_style_12{width: 5.45%;height: 15%;} 
+.foto_style_13{width: 5.45%;height: 15%;}
+.foto_style_14{width: 6.69%;height: 16.7%;}
+.foto_style_15{width: 5.3%;height: 12%;}
+.foto_style_16{width: 5.3%;height: 12%;} 
+.foto_style_17{width: 5.3%;height: 12%;} 
+.foto_style_18{width: 5.3%;height: 12%;} 
+.foto_style_19{width: 5.3%;height: 12%;} 
+.foto_style_20{width: 5.3%;height: 12%;} 
+.foto_style_21{width: 5.3%;height: 12%;} 
+.foto_style_22{width: 5.3%;height: 12%;}  
+@media only screen and (max-width : 800px) {
+    .main_head {min-height: 460px;}
+}
