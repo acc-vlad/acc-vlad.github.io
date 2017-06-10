@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title id="minus99">Page</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="frame">
+        <section id="content" class="home" style="text-align: center">
+            <style>
+                .disp_none {
+                    display: none;
+                }
+
+                .disp_none_2 {
+                    display: none;
+                }
+
+                .disp_none_3 {
+                    display: none;
+                }
+
+                .pon {
+                    cursor: pointer;
+                }
+                @media only screen and (max-width : 600px) {
+                    .tamplate_1,.disp_none_2,.disp_none_3{width: 100% } }
+            </style>
+            <div class="container h_bot_10">
+                <div class="row">
+                    <img src="Icon-iphone.png" style="width:100px" class="phone pon" alt="mobile" />
+                    <img src="anketa_na_podkluchenie.png" style="width:100px" class="example pon" alt="example" />
+                    <img src="My_computer_blue.png" style="width:100px" class="disp_none pon" alt="computer" />
+                </div>
+            </div>
+            <img src="2.jpg" alt="Tamplate_1" class="tamplate_1" />
+            <img src="10.jpg" alt="Example" class="disp_none_2" />
+            <img src="11.jpg" alt="mobile" class="disp_none_3" />
+            <script>
+                $('.example').click(function() {
+                    $('.example,.tamplate_1,.disp_none_3').hide(500);
+                    $('.disp_none_2,.disp_none,.phone').show(500);
+                });
+                $('.disp_none').click(function() {
+                    $('.disp_none,.disp_none_2,.disp_none_3').hide(500);
+                    $('.tamplate_1,.example,.phone').show(500);
+                });
+                $('.phone').click(function() {
+                    $('.phone,.tamplate_1,.disp_none_2').hide(500);
+                    $('.disp_none,.disp_none_3,.example').show(500);
+                });
+            </script>
+        </section>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
