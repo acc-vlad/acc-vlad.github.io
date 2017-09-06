@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+	margin: 0;
+    outline: none !important;
+}
+body {
+    font-size: 14px;
+    min-width: 320px;
+    max-width: 700px;
+    position: relative;
+    line-height: 135%;
+    font-family: 'Source Serif Pro', sans-serif;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background: #000 !important;
+}
+header img, footer img, .video video{
+	width: 100%;
+}
