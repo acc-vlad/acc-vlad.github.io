@@ -17,4 +17,10 @@ body {
 header img, footer img, .video img{
 	width: 100%
 }
+footer p{
+	padding: 5px;
+	color: #fff; 
+	font-size:15px;
+	font-family:arial;
+}
 
