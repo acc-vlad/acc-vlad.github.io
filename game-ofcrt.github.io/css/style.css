@@ -20,3 +20,8 @@ header img, footer img, .video img{
 .video{
 	text-align: center;
 }
+@media only screen and (max-width : 500px) {
+	header img, footer img, .video img{
+	width: 100%
+}
+}
