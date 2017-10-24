@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     background: #000 !important;
 }
-header img, footer img, .video img{
+header img, footer img, .video video{
 	width: 100%
 }
 footer p{
